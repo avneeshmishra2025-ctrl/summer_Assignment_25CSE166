@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nvoid print_sum(int a, int b) {\n    printf("Sum = %d\n", a + b);\n}\n\nint main(void) {\n    int x, y;\n    printf("Enter two integers: ");\n    if (scanf("%d %d", &x, &y) == 2) {\n        print_sum(x, y);\n    } else {\n        printf("Invalid input\n");\n    }\n    return 0;\n}\n

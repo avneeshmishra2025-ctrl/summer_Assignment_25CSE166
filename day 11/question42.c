@@ -1,0 +1,1 @@
+#include <stdio.h>\n\nint max_of_two(int a, int b) {\n    return (a > b) ? a : b;\n}\n\nint main(void) {\n    int x, y;\n    printf("Enter two integers: ");\n    if (scanf("%d %d", &x, &y) == 2) {\n        printf("Maximum = %d\n", max_of_two(x, y));\n    } else {\n        printf("Invalid input\n");\n    }\n    return 0;\n}\n
